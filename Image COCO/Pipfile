@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow-gpu = "==1.2.1"
+scipy = "*"
+nltk = "==3.2.0"
+
+[requires]
+python_version = "2.7"
